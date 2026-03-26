@@ -71,7 +71,7 @@ export default function Home() {
           </p>
         </div>
         <p className="mt-9 text-lg text-crimson lg:text-xl">
-          Let's do something bold...
+          Let&apos;s do something bold...
         </p>
         <div className="relative -mx-10 -mt-20 lg:static lg:mx-0 lg:mt-0 hidden">
           <Image
