@@ -19,16 +19,15 @@ const TheoryLab = () => {
       />
       <div className="text-green-spring mt-10 max-w-lg text-xl lg:text-2xl">
         <p>
-          Emergent technologies like AI, quantum computing, and robotics demand
-          an equally revolutionary shift in design paradigms. The visual
-          language of tech: repetitive grids, lines, and plexus webs, has
-          remained largely stagnant for over 40 years. Theory Lab aims to change
-          that through novel creative approaches that capture the awe and wonder
-          of the technology itself.
+          With AI dramatically altering the creative landscape, I created Theory Lab as my personal 
+          multi-modal design consultancy for aggresively agile brands with small teams. This means one person,
+          instead of 10 or 20, you can successfuly deploy anywhere in a project's development chain. From factory auditing,
+          materials sourcing, and packaging to creative production, copywriting, marketing, and web.
+
         </p>
       </div>
-      <Link className="button button-theory mt-7" href="/">
-        Work with us
+      <Link className="button button-theory mt-7" href="mailto:sterling@wearetheorylab.com">
+        Work with me
       </Link>
     </>
   )

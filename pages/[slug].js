@@ -15,7 +15,7 @@ export default function Post({ title, subtitle, markdown }) {
         {subtitle && (
           <div className="mt-1 max-w-3xl text-lg lg:text-2xl">{subtitle}</div>
         )}
-        <div className="mt-10 lg:mt-20">
+        <div className="mt-7 lg:mt-14">
           <MarkdownContent>{markdown}</MarkdownContent>
         </div>
         <footer className="mt-24 pb-12 text-sm text-sand lg:mt-48 lg:pb-24">

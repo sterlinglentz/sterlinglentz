@@ -81,8 +81,8 @@ module.exports = {
               color: theme("colors.midnight"),
             },
             p: {
-              marginTop: em(40, 20),
-              marginBottom: em(40, 20),
+              marginTop: em(32, 20),
+              marginBottom: em(32, 20),
             },
             blockquote: {
               marginTop: em(96, 30),

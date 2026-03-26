@@ -47,19 +47,26 @@ export default function Home() {
           </p>
         </div>
         <p className="mt-9 text-lg text-crimson lg:text-xl">
-          Let’s do something bold...
+          Do something bold...
         </p>
-        <div className="relative -mx-10 -mt-20 lg:static lg:mx-0 lg:mt-0">
+        <div className="relative -mx-10 -mt-20 lg:static lg:mx-0 lg:mt-0 hidden">
+          <Image
+            className="absolute left-[800px] top-[100px] z-[-2] w-[146px] lg:w-auto"
+            src="/images/School_in_india.jpg"
+            width={186}
+            height={281}
+            alt="School in India"
+          />
           <Image
             className="absolute right-0 top-0 -z-1"
-            src="/images/portrait-1.jpg"
+            src="/images/STERLING_LENTZ_PORTRAIT.jpg"
             width={585}
             height={585}
             alt="Portrait"
           />
           <Image
-            className="absolute left-0 top-[180px] -z-1 w-[225px] lg:left-auto lg:right-[380px] lg:top-[250px] lg:w-auto"
-            src="/images/portrait-2.jpg"
+            className="absolute -left-[100px] top-[180px] -z-1 w-[225px] lg:left-auto lg:right-[480px] lg:top-[250px] lg:w-auto"
+            src="/images/Salutation_to_the_sun.jpg"
             width={288}
             height={433}
             alt="Portrait"

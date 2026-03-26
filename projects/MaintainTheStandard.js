@@ -19,10 +19,11 @@ const MaintainTheStandard = () => {
       />
       <div className="text-black-squeeze mt-10 max-w-lg text-xl lg:text-2xl">
         <p>
-          We are renewing faith in the timeless philosophical principles that
-          inspire human progress. These classical values: justice, truth, unity,
-          compassion, service, are the true pillars of all great nations. They
-          must be maintained.
+          We live in a dangerous moment of human history. Institutions and cultural traditions of all kinds
+          are crumbling, and universal human values have receded from our politics and discourse. Weaving together current events, philosophy, and spiritual teachings, I write on the
+          importance of living a virtuous, faithful life in difficult times.
+      
+      
         </p>
       </div>
       <Link className="button button-mts mt-7" href="/">
