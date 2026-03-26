@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
+import { NextSeo } from "next-seo"
 
 import Header from "@/components/Header"
 import Page from "@/components/Page"
@@ -9,6 +10,7 @@ import { projects } from "@/data/projects"
 
 export default function Home() {
   const [currentProject, setCurrentProject] = useState()
+  const scrollCooldown = useRef(false)
 
   useEffect(() => {
     document.body.classList.add("is-home")
@@ -28,8 +30,30 @@ export default function Home() {
     setCurrentProject(newProject)
   }
 
+  useEffect(() => {
+    const handleWheel = (e) => {
+      if (!currentProject || scrollCooldown.current) return
+      scrollCooldown.current = true
+      setTimeout(() => (scrollCooldown.current = false), 600)
+
+      const index = projects.indexOf(currentProject)
+      if (e.deltaY > 0) {
+        handleProjectChange(projects[(index + 1) % projects.length])
+      } else {
+        handleProjectChange(projects[(index - 1 + projects.length) % projects.length])
+      }
+    }
+
+    window.addEventListener("wheel", handleWheel)
+    return () => window.removeEventListener("wheel", handleWheel)
+  }, [currentProject])
+
   return (
     <>
+      <NextSeo
+        title="Sterling Lentz :: On a mission to bring more beauty, meaning, and wisdom to the world"
+        description="Sterling Lentz is a writer, creative director, and founder of Fundamental Artifact, a sustainable apparel and accessories brand."
+      />
       <Header onClickHome={() => handleProjectChange(null)} />
       <Sidebar
         projects={projects}
@@ -47,7 +71,7 @@ export default function Home() {
           </p>
         </div>
         <p className="mt-9 text-lg text-crimson lg:text-xl">
-          Do something bold...
+          Let's do something bold...
         </p>
         <div className="relative -mx-10 -mt-20 lg:static lg:mx-0 lg:mt-0 hidden">
           <Image

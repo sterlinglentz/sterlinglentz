@@ -4,7 +4,9 @@ import site from "@/data/site"
 export default function Document() {
   return (
     <Html lang={site.language}>
-      <Head />
+      <Head>
+        <link rel="icon" type="image/png" href="/images/favicon.png" />
+      </Head>
       <body>
         <Main />
         <NextScript />
