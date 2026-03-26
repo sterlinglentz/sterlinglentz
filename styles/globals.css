@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "components/button.css";
+@import "components/circle.css";
+@import "components/header.css";
+@import "components/page.css";
+
+@import "themes.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white font-canto text-dove-gray;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body.is-home {
+  @apply bg-black text-sand;
+}
+
+body.is-menu-open {
+  @apply h-screen overflow-hidden lg:h-auto lg:overflow-auto;
+}
