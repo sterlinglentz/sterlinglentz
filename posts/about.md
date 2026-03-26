@@ -2,7 +2,7 @@
 title: Impossible Means Nothing to Me
 subtitle: I believe we are all born with a purpose. Our first job is to discover it. Our second is to pursue it with all our heart.
 ---
-![Sterling Lentz Portrait](STERLING_LENTZ_PORTRAIT.JPG)
+![Sterling Lentz Portrait](STERLING_LENTZ_PORTRAIT.jpg)
 
 The human project is imperfect. Always unfinished. "We're all fighting against the tide," a teacher once said to me. I have a deep empathy and understanding for the struggles we all must endure, many of which come in forms that are invisible to others. 
 
