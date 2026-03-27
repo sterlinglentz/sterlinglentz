@@ -6,6 +6,17 @@ export default function Document() {
     <Html lang={site.language}>
       <Head>
         <link rel="icon" type="image/png" href="/images/favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Sterling Lentz",
+              url: "https://www.sterlinglentz.com",
+            }),
+          }}
+        />
       </Head>
       <body>
         <Main />

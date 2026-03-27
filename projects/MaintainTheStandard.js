@@ -26,7 +26,7 @@ const MaintainTheStandard = () => {
       
         </p>
       </div>
-      <Link className="button button-mts mt-7" href="/">
+      <Link className="button button-mts mt-7" href="https://maintainthestandard.substack.com/">
         Read on Substack
       </Link>
     </>
