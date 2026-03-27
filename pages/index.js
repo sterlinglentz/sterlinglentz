@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
-import { NextSeo } from "next-seo"
-
 import Header from "@/components/Header"
 import Page from "@/components/Page"
 import Sidebar from "@/components/Sidebar"
@@ -50,10 +48,6 @@ export default function Home() {
 
   return (
     <>
-      <NextSeo
-        title="Sterling Lentz :: On a mission to bring more beauty, meaning, and wisdom to the world"
-        description="Sterling Lentz is a writer, creative director, and founder of Fundamental Artifact, a sustainable apparel and accessories brand."
-      />
       <Header onClickHome={() => handleProjectChange(null)} />
       <Sidebar
         projects={projects}

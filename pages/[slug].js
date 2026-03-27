@@ -19,7 +19,7 @@ export default function Post({ title, subtitle, markdown }) {
           <MarkdownContent>{markdown}</MarkdownContent>
         </div>
         <footer className="mt-24 pb-12 text-sm text-sand lg:mt-48 lg:pb-24">
-          {site.title} &copy; {new Date().getFullYear()}
+          {site.name} &copy; {new Date().getFullYear()}
         </footer>
       </Page>
     </>
