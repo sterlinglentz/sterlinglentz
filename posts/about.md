@@ -10,7 +10,7 @@ Most of us live in some tension between what we are doing and what we think we o
 
 ## A Different Paradigm
 
-I think differently. I believe in a world of unlimited possibility and human potential. A place where amazing things are possible for each and everyone of us. As the great Les Brown used to say, "Not only is it possible. It's necessary." In placing a higher purpose at the center of my life, and trusting divine support to see it through, I've been able to pursue a life far beyond the status quo. The lessons have been many, and the wisdom hard fought. Yet there is nothing so much worth doing than the work of the heart.
+I think differently. I believe in a world of untapped potential and human greatness. A place where amazing things are possible for each and everyone of us. As the great Les Brown used to say, "Not only is it possible. It's necessary." In placing a higher purpose at the center of my life, and trusting divine support to see it through, I've been able to pursue a life far beyond the status quo. The lessons have been many, and the wisdom hard fought. Yet there is nothing so much worth doing than the work of the heart.
 
 Professionally, this has had real, tangible advantages. Working with purpose and emotional clarity allows me to navigate complex environments others may find difficult. I am able to lead with conviction and reciprocity. I build creative teams that are committed and ethical. My tremendous sensitivity that allows me to both produce and identify exceptional quality in a wide range of modalities. Everything speaks, and I have the ears to listen.
 
